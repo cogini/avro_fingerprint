@@ -93,9 +93,9 @@
 <<canonical "string"
 
 // 016
-<<INPUT [  ]
-<<canonical []
-<<fingerprint -1241056759729112623
+// <<INPUT [  ]
+// <<canonical []
+// <<fingerprint -1241056759729112623
 
 // 017
 <<INPUT [ "int"  ]
