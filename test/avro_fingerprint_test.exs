@@ -15,6 +15,7 @@ defmodule Avro.FingerprintTest do
 
   # @tag :skip
   test "normalize_schema" do
+    # Runs test cases from the Avro project: https://github.com/apache/avro/blob/master/share/test/data/schema-tests.txt
     for c <- read_cases("./test/data/avro/schema-tests.txt"), Map.has_key?(c, "canonical") do
       # IO.puts("#{c["input"]} #{c["canonical"]}")
 
